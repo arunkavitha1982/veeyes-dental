@@ -91,7 +91,16 @@
 }
 
 
-
+.fixed-contact-icons {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 999;
+}
 
 /* Individual icon style */
 .icon-link {

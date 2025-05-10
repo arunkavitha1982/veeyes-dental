@@ -58,7 +58,10 @@ input {
     background-color: #ECD8B6;
 }
 
-.social-icons .icon-link {
+.social-icons .icon-link2 {
+    display: inline-flex; /* use flex to center icon inside */
+    align-items: center;  /* vertical centering */
+    justify-content: center; /* horizontal centering */
     width: 44px;
     height: 44px;
     background-color: #ffffff;
@@ -70,7 +73,8 @@ input {
     z-index: 1;
 }
 
-.social-icons .icon-link:hover {
+
+.social-icons .icon-link2:hover {
     background-color: #13C2CF;
     border-radius: 50% 50% 50% 50%;
 }
