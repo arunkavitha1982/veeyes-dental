@@ -1,12 +1,14 @@
 .contact-section {
-    background-color: #004a52;
+    background-image: url("../images/footer_page.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
-    padding: 40px 0;
 }
 
 .contact-info p {
     font-size: 17px;
-    line-height: 2;
+    line-height: 1.8;
     font-family: 'Montserrat';
 }
 
@@ -41,7 +43,7 @@ input {
 
 .form-control {
     border-radius: 8px;
-    margin: 0px 2px 32px 2px;
+    margin: 0px 2px 28px 2px;
 }
 
 .submit-btn {
@@ -59,9 +61,12 @@ input {
 }
 
 .social-icons .icon-link2 {
-    display: inline-flex; /* use flex to center icon inside */
-    align-items: center;  /* vertical centering */
-    justify-content: center; /* horizontal centering */
+    display: inline-flex;
+    /* use flex to center icon inside */
+    align-items: center;
+    /* vertical centering */
+    justify-content: center;
+    /* horizontal centering */
     width: 44px;
     height: 44px;
     background-color: #ffffff;
@@ -79,23 +84,6 @@ input {
     border-radius: 50% 50% 50% 50%;
 }
 
-.footer {
-    background-color: #f9f7f0;
-    text-align: left;
-    padding: 15px;
-    font-size: 14px;
-}
-
-
-.end-logo {
-    margin-right: -47px;
-    background-color: white;
-    width: 100%;
-    padding: 33px;
-    margin-bottom: -74px;
-    margin-top: 90px;
-    border-radius: 78% 56px 0px 0px;
-}
 
 @media(max-width:1200px) {
 
@@ -103,9 +91,7 @@ input {
         margin: 0px 2px 32px 2px !important;
     }
 
-    .end-logo {
-        margin-right: -47px !important;
-    }
+
 
     .contact-info p {
         font-size: 12px !important;
@@ -127,9 +113,6 @@ input {
         margin: 0px 2px 32px 2px !important;
     }
 
-    .end-logo {
-        margin-right: -47px !important;
-    }
 
     .contact-info p {
         font-size: 12px !important;
@@ -152,9 +135,6 @@ input {
         margin: 0px 2px 9px 2px !important;
     }
 
-    .end-logo {
-        margin-right: -47px !important;
-    }
 
     .contact-info p {
         font-size: 12px !important;
@@ -173,10 +153,6 @@ input {
 
     .form-control {
         margin: 0px 2px 6px 2px !important;
-    }
-
-    .end-logo {
-        margin-right: -47px !important;
     }
 
     .contact-info p {
@@ -201,9 +177,6 @@ input {
         margin: 0px 2px 5px 2px !important;
     }
 
-    .end-logo {
-        margin-right: -47px !important;
-    }
 
     .contact-info p {
         font-size: 12px !important;
@@ -226,9 +199,6 @@ input {
         margin: 0pc 2px 2px 2px !important;
     }
 
-    .end-logo {
-        margin-right: -70px !important;
-    }
 
     .contact-info p {
         font-size: 12px !important;
@@ -249,10 +219,6 @@ input {
 @media (max-width:280px) {
     .form-control {
         margin: 0px 2px 32px 2px !important;
-    }
-
-    .end-logo {
-        margin-right: -47px !important;
     }
 
     .contact-section h1 {
