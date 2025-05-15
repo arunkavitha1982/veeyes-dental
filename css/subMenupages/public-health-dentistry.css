@@ -164,7 +164,7 @@ ul li {
         padding-left: 11%;
     }
 
-    
+
 }
 
 @media (max-width:1024px) {
@@ -236,7 +236,7 @@ ul li {
         padding-left: 11%;
     }
 
-    
+
 }
 
 @media (max-width:992px) {
@@ -308,7 +308,7 @@ ul li {
         padding-left: 11%;
     }
 
-    
+
 
 }
 
@@ -386,8 +386,8 @@ ul li {
     }
 
     .fs-5 li {
-    font-size: 15px;
-}
+        font-size: 15px;
+    }
 }
 
 @media (max-width:480px) {
@@ -567,7 +567,7 @@ ul li {
         padding-left: 11%;
     }
 
-    
+
 }
 
 @media (max-width:270px) {
@@ -647,6 +647,6 @@ ul li {
         padding-left: 11%;
     }
 
-    
+
 
 }
